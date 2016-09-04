@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Week One-Part One</title>
+      <h1>Please Enter Your Details For Our Dating Website!</h1>
+  </head>
+  <body>
+    <form name="Dating Website">
+      <fieldset><label for="avatar">Your Image: </label><input type="file" id="avatar" name="avatar" required> <br>
+                             Image Preview:
+        <legend>Your Face</legend>
+      </fieldset>
+      <fieldset>
+        <legend>Your General Details</legend>
+          Name: <input type="text" required><br>
+          Gender: <input type="radio" name="Male" value="Male">Male <input type="radio" name="Female" value="Female"> Female <br>
+          Age: <input type="text" required><br>
+          Date of Birth: <input type="date" name="date" value="date" required><br>
+          Favorite color: <input type="color" name="color" value="color" required><br>
+          Which Country: <select required>
+                         <option value=""></option>
+                         <option value="China">China</option>
+                         <option value="USA">USA</option>
+                         <option value="GBK">GBK</option>
+                         <option value="France">France</option>
+                         <option value="Germeny">France</option>
+                         <option value="Japan">France</option>
+                       </select>
+      </fieldset>
+      <fieldset>
+        <legend>Your Indicators</legend>
+          Height: Short <input type="range" step="10" min="0" max="100" value="50"> Tall<br>
+          Salary: Poor <input type="range" step="10" min="0" max="100" value="50"> Rich<br>
+      </fieldset>
+      <fieldset>
+        <legend>Your Contact Information</legend>
+          Email:<input type="mail" required><br>
+          Mobile:<input type="tel" required><br>
+          Address:<textarea name="Address" rows="8" cols="20" required></textarea><br>
+          Method to contact you:<input type="checkbox"> Email <input type="checkbox"> Whatsapp <input type="checkbox"> In-app chat
+      </fieldset>
+      <input type="submit" name="submit" value="submit">
+    </form>
+  </body>
+</html>
